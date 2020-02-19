@@ -24,7 +24,7 @@ this.state={
                     </div>
                     <div className="card-body col-md-8">
         <Line  id="chart"
-        data={this.state.chartData}
+        data={this.props.chartData}
         ></Line>
                     </div>
                 </div>
