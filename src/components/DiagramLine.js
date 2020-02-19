@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {Bar} from 'react-chartjs-2'
+import {Line} from 'react-chartjs-2'
 //import Chart from "chart.js";
 
 class Diagram2 extends Component {
@@ -24,9 +24,9 @@ this.state={
     <h1>{grafName}</h1>
                     </div>
                     <div className="card-body col-md-8">
-        <Bar  id="chart"
+        <Line  id="chart"
         data={this.state.chartData}
-        ></Bar>
+        ></Line>
                     </div>
                 </div>
                 
